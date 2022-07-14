@@ -1,12 +1,12 @@
 {
   "name": "Google One Ring for YouTube",
   "version": "0.0.1",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "description": "Add the Google One Ring around your avatar for YouTube",
   "content_scripts": [
     {
       "js": ["main.js"],
-      "matches": ["*://https://www.youtube.com/"]
+      "matches": ["https://www.youtube.com/*"]
     }
   ]
 }
